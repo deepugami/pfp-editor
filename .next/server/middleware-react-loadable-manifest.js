@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST={"index.tsx -> react-rnd":{"id":"index.tsx -> react-rnd","files":["static/chunks/node_modules_react-rnd_lib_index_js.js"]}}
