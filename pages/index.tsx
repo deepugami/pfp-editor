@@ -12,13 +12,15 @@ import {
   Minimize2,
 } from "lucide-react";
 import React from "react";
+// Import DraggableData and DraggableEvent from react-draggable
+import type { DraggableData, DraggableEvent } from "react-draggable";
 
 // Dynamically import Rnd with SSR disabled (prevents the "window is not defined" error)
 const Rnd = dynamic(() => import("react-rnd").then((mod) => mod.Rnd), {
   ssr: false,
 });
 
-// TypeScript interface for DraggableData that was missing
+/* TypeScript interface for DraggableData that was missing
 interface DraggableData {
   x: number;
   y: number;
@@ -28,6 +30,7 @@ interface DraggableData {
 type DraggableEvent =
   | React.MouseEvent<HTMLElement>
   | React.TouchEvent<HTMLElement>;
+  */
 
 class ErrorBoundary extends React.Component<
   { children: React.ReactNode },
