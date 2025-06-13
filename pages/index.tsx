@@ -55,7 +55,7 @@ class ErrorBoundary extends React.Component<
 }
 
 // Store overlay information with preloaded images for better quality
-const OVERLAYS = ["/image1.png", "/image2.png", "/image3.png"];
+const OVERLAYS = ["/image1.png", "/image2.png", "/image3.png", "/1.png", "/2.png", "/3.png", "/4.png", "/5.png", "/6.png"];
 const OVERLAY_CACHE = new Map<string, HTMLImageElement>();
 
 const BOX = 300;
